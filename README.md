@@ -1,7 +1,7 @@
 ## How to run
-###Client terminal
+### Client terminal
 $ go run client.go
-###Server terminal
+### Server terminal
 $ go run server.go
 
 ## Environment
