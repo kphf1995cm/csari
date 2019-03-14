@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	fmt.Println("This is test0")
 	con, err := net.Dial("tcp", "localhost:3000")
 	if err != nil {
 		fmt.Println("err dialing:", err.Error())
