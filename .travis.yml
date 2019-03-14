@@ -1,1 +1,9 @@
 language: go
+
+check:
+    stage: test
+    script: skip
+
+deploy:
+    stage: build
+    script: skip
